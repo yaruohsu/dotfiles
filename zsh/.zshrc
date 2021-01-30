@@ -49,3 +49,6 @@ ZSH_THEME="robbyrussell"
 # See https://github.com/ohmyzsh/ohmyzsh/issues/5765
 # COMPLETION_WAITING_DOTS="true"
 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source ~/GitHub/powerlevel10k/powerlevel10k.zsh-theme
+source .p10k.zsh
