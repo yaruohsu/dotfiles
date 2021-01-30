@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="~/.oh-my-zsh"
+export ZSH="/Users/yaruo_hsu/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -49,6 +49,18 @@ ZSH_THEME="robbyrussell"
 # See https://github.com/ohmyzsh/ohmyzsh/issues/5765
 # COMPLETION_WAITING_DOTS="true"
 
+plugins=(
+  zsh-syntax-highlighting
+  git
+  nvm
+  node
+  yarn
+  npm
+  react-native
+)
+
+source $ZSH/oh-my-zsh.sh
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source ~/GitHub/powerlevel10k/powerlevel10k.zsh-theme
-source .p10k.zsh
+source ~/.p10k.zsh
